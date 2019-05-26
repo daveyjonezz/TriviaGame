@@ -1,7 +1,8 @@
 
 body {
     font-family: 'Didact Gothic', sans-serif;
-    color: black;
+    color: white;
+    background-color: rgb(52,58,64);
 }
 
 .textBox {
@@ -23,5 +24,21 @@ body {
   }
 
 .cheese-image {
-    width: 300px;
+    width: 50%;
+    padding: 15px;
 }
+
+.header {
+    padding: 10px 16px;
+    background: rgb(80, 78, 78, .2);
+    color: #f1f1f1;
+  }
+  
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 30px;
+  }

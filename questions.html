@@ -16,26 +16,37 @@
 <body>
   <section class="align-items-center bg-dark">
     <div class="container-fluid">
-      <div class="row  justify-content-center align-items-center text-center h-50">
+      <div class="row  justify-content-center align-items-center text-center h-100">
         <h1 id="title">
           Can you guess the correct cheese before time runs out?
         </h1>
       </div>
-      <div class="row  justify-content-center align-items-center text-center h-50"></div>
-      <div id="timeRemaining"></div>
+      <div class="row  justify-content-center align-items-center text-center h-100"></div>
+      <div class="header" id="timeRemaining"></div>
     </div>
   </section>
-  
-        
+
+
   <section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark">
     <div class="container-fluid">
-      <div class="row  justify-content-center align-items-center d-flex text-center h-50">
-          <div id="quiz"></div>
-          <div id="results"></div>    
+      <div class="row  justify-content-center align-items-center d-flex text-center h-100">
+        <div id="quiz"></div>
+        <div id="results"></div>
       </div>
     </div>
   </section>
-  <p><a class="btn bg-primary btn-round text-light btn-lg btn-rised" id="submit">Done</a></p>
+
+  <section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark">
+    <div class="container-fluid">
+      <div class="row justify-content-center align-items-center d-flex text-center">
+        <div class="col-12 col-md-8 h-100">
+          <p><a class="btn btn-warning btn-round text-light btn-lg btn-rised" id="submit">I'm Stuffed!</a></p>
+          <p><a href="./index.html" class="btn btn-warning btn-round text-light btn-lg btn-rised" id="reset">Play Again</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
