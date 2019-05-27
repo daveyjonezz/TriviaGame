@@ -29,7 +29,7 @@ const myQuestions = [
     answers: {
       a: "Mild Cheddar",
       b: "Sharp Cheddar",
-      c: "Extra Charp Cheddar"
+      c: "Extra Sharp Cheddar"
     },
     correctAnswer: "c"
   },
